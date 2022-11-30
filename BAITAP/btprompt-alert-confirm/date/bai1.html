@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <button id="click" >
+        <span onclick="countbirday()">Click here </span>to know your birthday
+    </button>
+    <p id="age">
+    </p>
+    
+    <script>
+        function countbirday(){
+        var x = new Date();
+        var youryearnum=prompt("enter your year number:")
+        var age =x.getFullYear() - youryearnum;
+        document.getElementById('age').innerHTML=age
+
+        
+    }
+    </script>
+</body>
+</html>

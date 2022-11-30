@@ -1,0 +1,70 @@
+#kq{
+    font-size: 100px;
+    position: relative;
+    left: 40%;
+    width: fit-content;
+
+}
+#kq:hover{
+    border:5px solid black ;
+    border-radius:50px 50px 50px ; 
+    width: fit-content;
+    color: white;
+}
+@keyframes example {
+
+0%{background-color: red;
+    color:yellow;
+
+}
+10%{background-color: white;
+    color:black;
+
+}
+20%{background-color: black;
+    color: aliceblue;
+}
+30%{background-color: green;
+    color: yellow;
+}
+40%{background-color: rgb(170, 174, 170);
+    color: rgb(24, 47, 222);
+}
+50%{background-color: rgb(139, 88, 194);
+    color: rgb(237, 246, 239);
+}
+40%{background-color: rgb(217, 112, 129);
+    color: rgb(79, 80, 58);
+}
+
+40%{background-color: rgb(8, 148, 8);
+    color: rgb(218, 219, 230);
+}
+40%{background-color: rgb(201, 225, 21);
+    color: rgb(2, 4, 21);
+}
+40%{background-color: rgb(235, 244, 235);
+    color: rgb(180, 181, 193);
+}
+40%{background-color: rgb(15, 103, 15);
+    color: rgb(129, 21, 161);
+}
+100%{
+    background: rgb(146, 14, 14);
+    color: rgb(212, 212, 232);
+}
+}
+
+#kq {
+    
+    background-color: red;
+    animation: example infinite 2s ;
+    
+  }
+  
+
+
+
+
+ 
+

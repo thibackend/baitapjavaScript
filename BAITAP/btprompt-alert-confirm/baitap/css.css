@@ -1,0 +1,52 @@
+
+
+img {
+    width: 20%;
+    position: relative;
+    left: 8.3%;
+    top: 2.8px;
+}
+
+.sign{
+    position: absolute;
+    left:50%;
+    top: 10%;
+    display:grid;
+    row-gap: 100px;
+}
+#red{
+    background: red;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 9%;
+    left: 16.5%;
+    border-radius: 99999px ;
+}
+#black{
+    background: black;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 9%;
+    left: 16.5%;
+    border-radius: 99999px ;
+}
+#yeallow{
+    background: yellow;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 23%;
+    left: 16.5%;
+    border-radius: 99999px ;
+}
+#green{
+    background: green;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 36.8%;
+    left: 16.5%;
+    border-radius: 99999px ;
+}

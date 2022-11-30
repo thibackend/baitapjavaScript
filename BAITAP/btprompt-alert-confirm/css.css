@@ -1,0 +1,12 @@
+.show{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: -43%;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    background: black;
+}
